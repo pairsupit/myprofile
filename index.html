@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0px;
+      font-family: Montserrat;
+      font-size: 15px;
+      overflow: auto;
+      float: left;
+      background-image: linear-gradient(to right, #ED765E ,#E3BDE5);
+    }
+    .navbar a {
+      color: white;
+      background-color: #ED765E ;
+      text-align: center;
+      text-decoration: none;
+      padding: 15px 30px;
+      border-radius: 15px;
+      
+    }
+    .navbar a:hover {
+      background-color: rgba(255, 183, 168, 0.5);
+      /* background-color:white; */
+    }
+    .navbar {
+      background-color: #ED765E ;
+      padding: 10px 30px;
+      width: 100%;
+      height: 45px;
+      float: left;
+      overflow: hidden;
+    }
+    .content {
+      float: left;
+      width: 100%;
+      height: auto;
+      padding: 5%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .column-1 {
+      width: 33.33%;
+      float: left;
+    }
+    
+    .column-2 {
+      width: 33.33%;
+      float: left;
+    }
+    
+    .column-3 {
+      width: 33.33%;
+      float: left;
+    }
+    .post {
+      background-color: white;
+      overflow: auto;
+      border-radius: 10px;
+      width: 80%;
+      margin: 15px 20px;
+      padding: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .fa {
+      padding: 20px 10px;
+      font-size: 15px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: auto;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+
+    .fa-pinterest {
+      background: #cb2027;
+      color: white;
+    }
+
+    @media screen and (max-width: 700px) {
+      .sidenav {padding-top: 15px;}
+      .content {float:none;}
+      .column-3 {float:none;margin:auto;width:100%;}
+      .column-1 {float:none;margin:auto;width:100%;}
+      .column-2 {float:none;margin:auto;width:100%;}
+      .post {height: fit-content;}
+    }
+    .footer{
+      background-color: #ED765E ;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      width: 100%;
+      text-align: center;
+      float: left;
+    }
+    h3 {
+      cursor:pointer;
+    }
+
+
+  </style>
+
+<body>
+<!-- navbar -->
+<div class="navbar">
+  <a class="active" href="#home">&#9776;  Home</a>
+  <a href="#contact">Contact</a>
+  <a href="#projects">Projects</a>
+</div>
+
+<!-- content -->
+<div class="content">
+  <!-- column 1 -->
+  <div class="column-1">
+    <div class="post">
+      <h1 style="background-color:navajowhite">My Profile</h1>
+      <p><i>Supitsara Deetoh (Pair), 21
+        <br>18th March 1999
+        <br></i>
+      </p>
+
+    </div>
+    <div class="post">
+      <h1 style="background-color:rgb(241, 172, 190)">Interest in..</h1>
+      <p><i>Web development
+        <br>UX/UI design
+      </i></p>
+    </div>
+    <div class="post">
+      <h1 style="background-color: cornflowerblue;">My activity</h1>
+      <p><i>Book, Writing, Paint, Diary decorating, TV-Series
+      </i></p>
+    </div>
+  </div>
+  <!-- column 2 -->
+  <div class="column-2">
+    <div class="post">
+      <h1 style="background-color:palegreen">Experiences</h1>
+      <h2 style="background-color:rgb(165, 211, 165)">Course Project</h2>
+      <p>
+        <i>
+          <h3>PassTick</h3>
+          Web application project, objective to reduce plastic glasses,      if customer brings the glass by themselves. This web is 3-side users (Administer/shop/customer) customer can scan qr-code then donate to charity. Main web page will show all number of glasses that we saved
+          
+          <h3>Hang seal 24 Game</h3>
+          
+          Find the way to manipulate four integers, to end result with 24. if player got wrong answer or time over 30 sec, start to hang seal.
+          
+          <br><h3>Get-A Bristro and cafe'</h3>
+          
+          2-side users user can order /cancel /check menu and bills customer add /remove /check menu and bills
+        
+        </i>
+      </p>
+    </div>
+    
+  </div>
+  <!-- column 2 -->
+  <div class="column-3">
+    <div class="post">
+      <h1 style="background-color:plum;">Education</h1>
+      <p><i>
+        ~2018 Khonkaen University
+        <br>~2012 Chumpholphonphisai School 
+        <br>~2006 Jumpholphonphisai School
+      </i></p>
+    </div>
+    <div class="post">
+      <h1 style="background-color:lightcoral;">Skills</h1>
+      <p><i><b>HTML/Css/JS</b>
+        <br>create interface/adaptability/do active element
+        <br><b>Basic Jquery/NodeJs</b>
+        <br><b>Basic Github/Gitlab</b>
+        <br><b>Other Computer Language Experiences:</b>
+        <br>Python, Java
+        <br><b>Basic network</b>
+        <br>7Layer/Protocol
+        <br><b>Assembly Language</b>
+        <br>coding program to control z80 controller
+        <br><b>Photoshop</b>
+        <br>fundamental of color
+        <br>edit photo
+      </i></p>
+    </div>
+  </div>
+</div>
+
+
+<h3 class="topic" name="projects" id="projects">My Projects</h3>
+ 
+  <div class="content">
+      <!-- project passtick --> 
+      <div class="column-1">
+        <div class="post" style="background-image: url(passtick.png);background-size :100%;height: 200px;">
+        </div>
+        
+        <div class="post">
+          <h2>PassTick</h2>
+          <p>Language: HTML/CSS/Js</p>
+          <p><i>
+            Web application project, objective to reduce plastic glasses,      if customer brings the glass by themselves. This web is 3-side users (Administer/shop/customer) customer can scan qr-code then donate to charity. Main web page will show all number of glasses that we saved
+            <br>
+            <a href="https://marvelapp.com/98i1i0b/screen/60685518">prototype link>></a><br>
+            <a href="https://github.com/waranya-smm/passtickProj">github link>></a>
+          </i></p>
+            
+        </div>
+        
+      </div>
+      <!-- project Hangseal -->
+      <div class="column-2">
+        <div class="post">
+          <h2>Hang Seal 24 Game</h2>
+          <p>Language: Java</p>
+          <p><i>
+            Find the way to manipulate four integers, to end result with 24. if player got wrong answer or time over 30 sec, start to hang seal.
+          <br>
+          <a href="https://docs.google.com/presentation/d/1kFsd9Qs6ocBstivHnJ2_kJ4Ey-pnCB0egwmLNws5Qfg/edit?usp=sharing">slide link>></a>
+        
+          </i></p>
+        </div>
+          <div class="post" style="color: gray;">
+            <h2>Title..</h2>
+            <p>Writing somthing..
+            </p>
+          </div>
+      </div>
+      <!-- Project get-A -->
+      <div class="column-3">
+        <div class="post">
+          <h2>Get-A Bristro and cafe'</h2>
+          <p>Language: Python</p>
+          <p><i>
+            2-side users user can order /cancel /check menu and bills customer add /remove /check menu and bills
+          </i></p>
+        </div>
+        <div class="post" style="background-image: url(Screenshot.png);background-size :100%;height: 200px;">
+          
+        </div>
+
+        <div class="post">
+          <h2>Prototype Supit's restaurant</h2>
+          <a href="https://www.figma.com/file/XEh3Z0jK99j3crHowjCx7D/603040469-0_Supitsara_Deetoh?node-id=0%3A1">Prototype link>></a>
+        </div>
+      </div>
+  </div>
+<!-- footer -->
+<div class="footer" name="contact" id="contact">
+    <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-pinterest"></a>
+</div>
+</body>
+
+</html>
